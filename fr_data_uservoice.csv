@@ -1,0 +1,103 @@
+title,description,url,extracted_at
+Proposal for Local Deployment of Firebase Studio to Optimize Performance and Enable Offline Functionality,"I recommend deploying a local instance of the Firebase Studio app to allow direct access to system resources (e.g., local files or databases), minimizing cloud dependency and network latency. This setup would enhance performance and support offline operations",https://firebase.uservoice.com/forums/948424-general/suggestions/49845732-proposal-for-local-deployment-of-firebase-studio-t,2026-03-23
+Gemini needs to be able to search the web and read web pages in Firebase Studio,Gemini needs to be able to search the web and read web pages in Firebase Studio.,https://firebase.uservoice.com/forums/948424-general/suggestions/49749866-gemini-needs-to-be-able-to-search-the-web-and-read,2026-03-23
+full stack project using frontend + backend + database [fastapi/flask][react/next/vite][postgres/mongo],full stack project using frontend + backend + database [fastapi/flask][react/next/vite][postgres/mongo],https://firebase.uservoice.com/forums/948424-general/suggestions/49737635-full-stack-project-using-frontend-backend-data,2026-03-23
+Firebase Studio Projects Files download,How to download my files or scripts from firebase studio?,https://firebase.uservoice.com/forums/948424-general/suggestions/49811792-firebase-studio-projects-files-download,2026-03-23
+Generate Gemini Memory in Project,"Gemini must remember all project specifications over the complete project. All desissions and guidelines. at the moment data gets randomly erased, overwriten or completely changed ( inclusing Layouts ) just by random",https://firebase.uservoice.com/forums/948424-general/suggestions/50146896-generate-gemini-memory-in-project,2026-03-23
+Deleted Workspace Restore & Recover,"I accidentally deleted my workspace in Firebase Studio, and unfortunately, there is no option available to restore or recover it. There should at least be a way to recover deleted workspaces from a recycle bin within 30 days. I’m extremely disappointed to lose all my workspace data and sincerely request a way to recover it.",https://firebase.uservoice.com/forums/948424-general/suggestions/50129076-deleted-workspace-restore-recover,2026-03-23
+"Add ""Delete Chat History"" or ""Reset Assistant"" Button in Firebase Studio / Gemini AI","Many developers are experiencing lag, broken context, or freezing when Firebase Studio (especially with Gemini AI integration) accumulates too much chat history. This often forces us to reset or recreate the entire project — and even then, Gemini may not respond at all.
+
+😫 Common issues:
+Chat lag and UI freezing as history grows.
+
+Inaccurate or irrelevant responses from Gemini due to old context.
+
+No way to manually clear or reset the AI assistant.
+
+Developers are forced to reset projects, which is disruptive and time-wasting.
+
+✅ Suggested Solution:
+Add a simple button such as:
+
+“Clear Chat History” or
+
+“Reset Gemini Session”
+
+Some ideas:
+
+Place it at the top or settings icon in the chat window.
+
+Optionally prompt the user for confirmation before clearing.
+
+Consider auto-clearing old history after a certain time or session timeout.
+
+🙌 Why It Matters:
+Boosts developer productivity by keeping AI responses accurate and fast.
+
+Reduces frustration caused by needing to reset entire Firebase projects.
+
+Enhances privacy and control over shared chat context (e.g., code, data).
+
+It's a small UX change that solves a major usability issue.
+
+🧩 Bonus Suggestion:
+Also allow developers to opt-out of chat memory for sensitive projects or to start each session fresh by default.
+
+Thanks for your consideration — this change would dramatically improve the Firebase Studio + Gemini experience for many developers.",https://firebase.uservoice.com/forums/948424-general/suggestions/49948302-add-delete-chat-history-or-reset-assistant-but,2026-03-23
+Improving Interactive Chat,"In Interactive Chat mode, it would be great if Gemini could review the entire project upon our first entry and provide some suggestions. For example, it could point out issues like 'The APIKEY section in your project is empty; you should fill it in,' or suggest improvements such as 'Adding this here would make it better.' Additionally, I think there should be a standalone application for this feature, not just web-based access.",https://firebase.uservoice.com/forums/948424-general/suggestions/49218350-improving-interactive-chat,2026-03-23
+Session Management & Device Visibility for Firebase Authentication,"Add optional session management to Firebase Authentication that creates and tracks individual login sessions per user, allowing developers/users to view active sessions with device and operating system information (derived from the User-Agent), approximate location (city/country), session creation time, and last active timestamp. The feature would enable per-device logout and selective session revocation via the Firebase Admin SDK, with optional read-only access for clients to build “logged-in devices” security UIs, while remaining privacy-safe, opt-in, and configurable without exposing raw IP addresses or User-Agent strings.
+
+View Complete Proposal/Request here: https://gist.github.com/12fahed/42e802890b5b887b93c66d94ceadeb2d",https://firebase.uservoice.com/forums/948424-general/suggestions/50860607-session-management-device-visibility-for-firebas,2026-03-23
+Bookmarks,"Bookmarks for Gemini Assistant while working on a project. Like if im working on a feature for app and i have to complete 3 tasks/steps to complete that feature, while working on step 1( which my require fixing errors etc.) other steps gets lost in the chat and require scrolling back and further. A cool feature would be to bookmark certain messages/plans/steps so we can refer back and insert quickly into Gemini chat.",https://firebase.uservoice.com/forums/948424-general/suggestions/49746635-bookmarks,2026-03-23
+Enable Firebase Authentication Pre-PIN Entry on Android Devices (Android direct boot aware SDK),"Background:
+Our application relies heavily on Firebase Authentication for seamless user experiences and data synchronization. However, we have encountered a significant limitation when the Android lock screen PIN is enabled. After a device reboot, Firebase Authentication becomes inaccessible until the user enters the PIN. This restriction disrupts our ability to interface with Firebase services immediately upon reboot.
+
+Issue:
+In discussions with Google, it was clarified that Firebase Authentication support is not available until the PIN is entered. This limitation impacts all our major customers who have enabled the Android lock screen PIN, causing operational delays and affecting user satisfaction.
+
+Request:
+We propose an enhancement to the Firebase Android SDK to enable Firebase Authentication functionality even before the user enters the PIN on reboot. This feature is urgently needed to ensure continuous authentication and access to Firebase services such as Firestore.
+
+Benefits:
+
+Continuous Access: This feature would allow our application to maintain uninterrupted access to Firebase, ensuring seamless user experiences and reliable data synchronization.
+
+Improved Reporting: It would facilitate real-time reporting to the cloud and enable monitoring of database changes without waiting for PIN entry.
+
+Consistent Ecosystem: By implementing this feature, we can avoid seeking alternative solutions, maintaining our reliance on Firebase’s robust ecosystem.
+
+Impact:
+The implementation of this feature will significantly enhance the usability of Firebase for applications that depend on authentication and data synchronization, especially in environments where security measures like PIN are essential.
+
+We believe this enhancement will greatly benefit developers and users alike, and we appreciate your consideration of this request.
+
+Thank you for your attention and support.",https://firebase.uservoice.com/forums/948424-general/suggestions/50025042-enable-firebase-authentication-pre-pin-entry-on-an,2026-03-23
+"""Prototyper"" Tool for Imported Repos and New Workspaces","Dear Firebase Studio Team,
+
+I’d like to suggest adding a ""Prototyper"" feature to the ""New Workspace"" and ""Import Repo"" workflows in Firebase Studio. Currently, after creating a workspace or importing a GitHub repository, there is no built-in editing interface or clearly labeled tool to visually prototype, preview, or update the imported project.
+
+Suggested Feature: Prototyper
+A dedicated button or tab within each workspace that launches a visual editor or live prototyping tool.
+
+Should support editing imported files, UI adjustment, code preview, and real-time updates.
+
+Optionally, provide integration with Firebase Hosting or Emulator Suite for previewing changes.
+
+Enable auto-sync back to GitHub (if repo is linked) after prototyping changes.
+
+Benefit:
+This will significantly improve developer experience by allowing quick edits, previews, and live testing—especially helpful for teams building dynamic frontends with Firebase services.
+
+Thank you for considering this enhancement in the final release of Firebase Studio!
+
+Best regards,
+A Firebase user",https://firebase.uservoice.com/forums/948424-general/suggestions/50089332--prototyper-tool-for-imported-repos-and-new-works,2026-03-23
+More Advanced Filter on FPM,"Current filter in FPM dashboard is too simple with little option. The only device-based is either based on the exact model or based on OS version. I want to see more complete categories like on the Android Vital, which provides filtering based on RAM, CPU, SoC, GPU, etc.
+
+This way we can see which performance categories that affected the most and takes decision based on that. For example, maybe there are 2 performance issues, 1 issue only happens on 2 GB devices while the other also happens on devices with 4-6 GB RAM. This data can be matched to Play Console install base data. Lets say 50% of our use has 4-6 GB RAM while only 5% of them use device with lower than 4 GB RAM. We can prioritise to fix/improve the issue that happens on majority device first.",https://firebase.uservoice.com/forums/948424-general/suggestions/50837102-more-advanced-filter-on-fpm,2026-03-23
+I need Flutter with Android Studio in Firebase Studio,Hi I and some people also need flutter with android studio in the firebase studio. This is because in vs code we not have to much features that we have in android studio with flutter. So please add a new template of android studio + flutter. I am waiting for this. Thanku,https://firebase.uservoice.com/forums/948424-general/suggestions/49835946-i-need-flutter-with-android-studio-in-firebase-stu,2026-03-23
+App Testing agent (iOS),Hello. I really like your testing agent for Android. Please tell me if there are any plans to develop an agent for iOS?,https://firebase.uservoice.com/forums/948424-general/suggestions/50562468-app-testing-agent-ios,2026-03-23
+Side-by-Side Code & Prototyper,Have an option to have the classic code view along side the prototyper (not necessarily the output but just the chat),https://firebase.uservoice.com/forums/948424-general/suggestions/49735547-side-by-side-code-prototyper,2026-03-23
+More powerful integration with AI features,"Ability to upload an image in the Gemini chat. I should be able to screenshot a figma design and have Gemini implement it as best as it can.
+Ability to reference local code. Similar to Cursor IDE, I should be able to tell Gemini: ""Look at this @file as a reference"", or: ""Only use the components under @example/components""
+Ability to customize a default prompt. If I always use certain conventions I don't want to repeat them over and over. I should be able to write them once under .idx/prompt.txt and have Gemini use them for context.",https://firebase.uservoice.com/forums/948424-general/suggestions/49161425-more-powerful-integration-with-ai-features,2026-03-23

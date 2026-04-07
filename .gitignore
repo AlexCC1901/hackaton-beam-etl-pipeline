@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+beam-etl-env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temp and test files
+file1.jsonl
+file2.jsonl
+temp_check.jsonl
+temp_check2.jsonl
+sample_data.csv
+
+# GCP credentials (just in case)
+*.json
+application_default_credentials.json
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
