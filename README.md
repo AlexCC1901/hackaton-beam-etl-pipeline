@@ -15,7 +15,7 @@ Data: The sample dataset `fr_data_uservoice.csv` contains user voice records (ht
 
 Clone the repo:
 ```
-git clone https://github.com/AlexCC1901/hackaton-beam-etl-pipeline.git`
+git clone https://github.com/AlexCC1901/hackaton-beam-etl-pipeline.git
 cd hackaton-beam-etl-pipeline
 ```
 Create and activate a virtual environment:
