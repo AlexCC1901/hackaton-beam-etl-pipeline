@@ -32,7 +32,7 @@ Run locally (DirectRunner):
 ```
 python pipeline/main.py \
 --runner Directrunner \
---input fr_data_uservoice.csv \
+--input gs://YOUR_BUCKET/fr_data_uservoice.csv \
 --project YOUR_GCP_PROJECT_ID \
 --output YOUR_BIGQUERY_DATASET.YOUR_TABLE
 ```
